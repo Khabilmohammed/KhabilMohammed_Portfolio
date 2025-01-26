@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I am a passionate .NET full-stack developer with a strong foundation in building robust, scalable, and high-performance web applications. With hands-on experience in modern front-end technologies like React, Redux Toolkit, and Tailwind CSS, paired with a deep understanding of back-end frameworks and tools like .NET Core, SQL Server, and Azure, I excel at crafting seamless, end-to-end solutions. My expertise extends to designing intuitive user interfaces, implementing efficient APIs, and integrating advanced features like role-based access control and real-time communication. Driven by curiosity and a commitment to innovation, I strive to create impactful solutions that enhance user experiences and accelerate business growth.`;
 
