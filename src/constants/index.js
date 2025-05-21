@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     description: `Developed scalable REST APIs using .NET Web API and SQL Server to manage data for learning management systems, and built a full-stack web application leveraging .NET Core, React, and SQL Server, integrating GitHub for version control. Created a web application using .NET Core MVC and SQL Server, incorporating GitHub for collaborative development. Gained foundational knowledge of NoSQL databases and advanced version control with Git, while contributing to UI/UX design to enhance user experience and interface consistency. Demonstrated strong communication skills and a proactive approach to continuous learning.`,
     technologies: ["C#", "JavaScript", "React.js", "SqlServer", "Git"],
   },
- 
+
 ];
 
 export const PROJECTS = [
@@ -46,3 +46,97 @@ export const CONTACT = {
   phoneNo: "+91 9745 9163 97 ",
   email: "khabilmohammed3@gmail.com",
 };
+
+export const SKILLS = [
+  {
+    name: ".NET Core",
+    percentage: 90,
+    color: "#512BD4"
+  },
+  {
+    name: "React.js",
+    percentage: 85,
+    color: "#61DAFB"
+  },
+  {
+    name: "SQL Server",
+    percentage: 80,
+    color: "#CC2927"
+  },
+  {
+    name: "JavaScript",
+    percentage: 85,
+    color: "#F7DF1E"
+  },
+  {
+    name: "TypeScript",
+    percentage: 75,
+    color: "#3178C6"
+  },
+  {
+    name: "HTML/CSS",
+    percentage: 90,
+    color: "#E34F26"
+  },
+  {
+    name: "Redux",
+    percentage: 80,
+    color: "#764ABC"
+  },
+  {
+    name: "MongoDB",
+    percentage: 70,
+    color: "#47A248"
+  },
+  {
+    name: "Git",
+    percentage: 85,
+    color: "#F05032"
+  },
+  {
+    name: "Azure",
+    percentage: 75,
+    color: "#0078D4"
+  }
+];
+
+// Import the resume file directly from assets for better bundling
+import resumePDF from "../assets/KhabilMohammed_Resume.pdf";
+export const RESUME_URL = resumePDF;
+
+export const BLOG_POSTS = [
+  {
+    id: 1,
+    title: "Getting Started with .NET Core and React",
+    excerpt: "Learn how to set up a full-stack application using .NET Core for the backend and React for the frontend.",
+    date: "2023-05-15",
+    image: "https://via.placeholder.com/600x400?text=.NET+and+React",
+    tags: ["React", ".NET Core", "Web Development"]
+  },
+  {
+    id: 2,
+    title: "Implementing JWT Authentication in .NET Core",
+    excerpt: "A comprehensive guide to implementing secure JWT authentication in your .NET Core applications.",
+    date: "2023-06-22",
+    image: "https://via.placeholder.com/600x400?text=JWT+Authentication",
+    tags: ["Authentication", "Security", ".NET Core"]
+  },
+  {
+    id: 3,
+    title: "State Management in React with Redux Toolkit",
+    excerpt: "Explore the benefits of using Redux Toolkit for state management in your React applications.",
+    date: "2023-07-10",
+    image: "https://via.placeholder.com/600x400?text=Redux+Toolkit",
+    tags: ["React", "Redux", "State Management"]
+  },
+  {
+    id: 4,
+    title: "Building Responsive UIs with Tailwind CSS",
+    excerpt: "Learn how to create beautiful, responsive user interfaces using Tailwind CSS.",
+    date: "2023-08-05",
+    image: "https://via.placeholder.com/600x400?text=Tailwind+CSS",
+    tags: ["CSS", "UI Design", "Responsive Design"]
+  }
+];
+
+

@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-        <h1 className="my-20 text-center text-4xl">About   
+    <div id="about" className="border-b border-neutral-900 pb-4 pt-16 -mt-16">
+        <h1 className="my-20 text-center text-4xl">About
           <span className="text-neutral-500"> Me</span>
         </h1>
         <div className="flex flex-wrap">
-          <motion.div 
+          <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:0.5}}
@@ -18,7 +18,7 @@ const About = () => {
               <img className="rounded-2xl" width={400} height={200} src={aboutImage} alt="" />
             </div>
           </motion.div>
-          <motion.div 
+          <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:100}}
           transition={{duration:0.5}}
