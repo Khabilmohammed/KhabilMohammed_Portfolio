@@ -49,28 +49,33 @@ export const CONTACT = {
 
 export const SKILLS = [
   {
+    name: "C#",
+    percentage: 92,
+    color: "#178600"
+  },
+  {
     name: ".NET Core",
     percentage: 90,
     color: "#512BD4"
   },
   {
     name: "React.js",
-    percentage: 85,
+    percentage: 70,
     color: "#61DAFB"
   },
   {
     name: "SQL Server",
-    percentage: 80,
+    percentage: 85,
     color: "#CC2927"
   },
   {
     name: "JavaScript",
-    percentage: 85,
+    percentage: 60,
     color: "#F7DF1E"
   },
   {
     name: "TypeScript",
-    percentage: 75,
+    percentage: 65,
     color: "#3178C6"
   },
   {
@@ -85,7 +90,7 @@ export const SKILLS = [
   },
   {
     name: "MongoDB",
-    percentage: 70,
+    percentage: 50,
     color: "#47A248"
   },
   {
