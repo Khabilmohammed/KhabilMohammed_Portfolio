@@ -63,7 +63,7 @@ const Blog = () => {
                 <h2 className="text-xl font-semibold mb-3">{post.title}</h2>
                 <p className="text-neutral-400 dark:text-gray-300 mb-4">{post.excerpt}</p>
                 <button className="text-purple-400 hover:text-purple-300 transition-colors">
-                  Read More →
+                  <a href={post.link}>Read More →</a>
                 </button>
               </div>
             </div>

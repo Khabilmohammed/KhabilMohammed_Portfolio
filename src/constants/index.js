@@ -116,15 +116,17 @@ export const BLOG_POSTS = [
     excerpt: "Learn how to set up a full-stack application using .NET Core for the backend and React for the frontend.",
     date: "2023-05-15",
     image: "https://via.placeholder.com/600x400?text=.NET+and+React",
-    tags: ["React", ".NET Core", "Web Development"]
+    tags: ["React", ".NET Core", "Web Development"],
+    link: "#"
   },
   {
     id: 2,
-    title: "Implementing JWT Authentication in .NET Core",
+    title: "Implementing JWT Authentication in .NET Core 8",
     excerpt: "A comprehensive guide to implementing secure JWT authentication in your .NET Core applications.",
-    date: "2023-06-22",
-    image: "https://via.placeholder.com/600x400?text=JWT+Authentication",
-    tags: ["Authentication", "Security", ".NET Core"]
+    date: "2025-06-17",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQEJuDem9M5Nmw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1710523270237?e=2147483647&v=beta&t=JKPs_Wg1V275ckZeb2amk0NubYwroD9uEfsHCoeKsns",
+    tags: ["Authentication", "Security", ".NET Core"],
+    link: "https://medium.com/@khabilmohammed3/implementing-jwt-authentication-in-net-core-8-6b27a228bef5"
   },
   {
     id: 3,
@@ -132,7 +134,8 @@ export const BLOG_POSTS = [
     excerpt: "Explore the benefits of using Redux Toolkit for state management in your React applications.",
     date: "2023-07-10",
     image: "https://via.placeholder.com/600x400?text=Redux+Toolkit",
-    tags: ["React", "Redux", "State Management"]
+    tags: ["React", "Redux", "State Management"],
+    link: "#"
   },
   {
     id: 4,
@@ -140,7 +143,8 @@ export const BLOG_POSTS = [
     excerpt: "Learn how to create beautiful, responsive user interfaces using Tailwind CSS.",
     date: "2023-08-05",
     image: "https://via.placeholder.com/600x400?text=Tailwind+CSS",
-    tags: ["CSS", "UI Design", "Responsive Design"]
+    tags: ["CSS", "UI Design", "Responsive Design"],
+    link: "#"
   }
 ];
 
