@@ -19,6 +19,7 @@ const Navbar = () => {
             <a href="#technologies" className="hover:text-purple-400 transition-colors">Skills</a>
             <a href="#experience" className="hover:text-purple-400 transition-colors">Experience</a>
             <a href="#projects" className="hover:text-purple-400 transition-colors">Projects</a>
+            <a href="#blogs" className="hover:text-purple-400 transition-colors">Blogs</a>
             <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
         </div>
 

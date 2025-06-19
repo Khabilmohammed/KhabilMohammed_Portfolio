@@ -18,7 +18,7 @@ const Blog = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   
   return (
-    <div id="blog" className="border-b border-neutral-900 pb-16 pt-16 -mt-16">
+    <div id="blogs" className="border-b border-neutral-900 pb-16 pt-16 -mt-16">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
