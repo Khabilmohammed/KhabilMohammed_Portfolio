@@ -112,12 +112,12 @@ export const RESUME_URL = resumePDF;
 export const BLOG_POSTS = [
   {
     id: 1,
-    title: "Getting Started with .NET Core and React",
-    excerpt: "Learn how to set up a full-stack application using .NET Core for the backend and React for the frontend.",
-    date: "2023-05-15",
-    image: "https://via.placeholder.com/600x400?text=.NET+and+React",
-    tags: ["React", ".NET Core", "Web Development"],
-    link: "#"
+    title: "Do You Get Stuck in the Azure Cold Start?? Let's Figure Out",
+    excerpt: "HTTP Error 500.30 - ASP.NET Core app failed to start - how to solve it.",
+    date: "2025-07-27",
+    image: "https://www.icorps.com/hubfs/Untitled-Project%20%2816%29.png",
+    tags: ["Azure","Cold Start", ".NET Core", "Web Development"],
+    link: "https://medium.com/@khabilmohammed3/do-you-get-stuck-in-the-azure-cold-start-lets-figure-out-8fbbb1ea2f75"
   },
   {
     id: 2,
