@@ -42,8 +42,8 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Pannikkaveetil House, Thrissur, Kerala, India",
-  phoneNo: "+91 9745 9163 97 ",
+  address: "Al Urubah Rd,Al Raed, Riyadh, Saudi Arabia",
+  phoneNo: "+966 503152338",
   email: "khabilmohammed3@gmail.com",
 };
 
