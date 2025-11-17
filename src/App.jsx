@@ -3,6 +3,7 @@ import Blog from "./componenets/Blog";
 import Contact from "./componenets/Contact";
 import Experience from "./componenets/Experience";
 import Hero from "./componenets/Hero";
+import MeetSchedule from "./componenets/MeetSchedule";
 import Navbar from "./componenets/Navbar";
 import Project from "./componenets/Project";
 import Technologies from "./componenets/Technologies";
@@ -24,6 +25,7 @@ export default function App() {
           <Experience />
           <Project/>
           <Blog />
+          <MeetSchedule />
           <Contact />
         </div>
       </div>
