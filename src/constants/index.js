@@ -106,7 +106,7 @@ export const SKILLS = [
 ];
 
 // Import the resume file directly from assets for better bundling
-import resumePDF from "../assets/KhabilMohammed_resume_bage (1).pdf";
+import resumePDF from "../assets/KhabilMohammed_resume_bage (2).pdf";
 export const RESUME_URL = resumePDF;
 
 export const BLOG_POSTS = [
